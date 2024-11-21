@@ -1,0 +1,7 @@
+{% extends "layouts/layout.html" %}
+{% block title %}{{ title }}{% endblock title %}
+
+{% block content %}
+<h2>ERROR 500</h2>
+<p>Ocurrió un error en el servidor. <a href="{% url 'inicio' %}">Regresar a inicio</a></p>
+{% endblock content %}
